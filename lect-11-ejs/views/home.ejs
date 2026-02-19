@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('partials/header') %>
+<body>
+  <%- include('partials/nav') %>
+    <h1>Welcome to AIRBNB </h1>
+    <h3>Registered homes are listed below</h3>
+     <ul>
+        <% houseRegistered.forEach(house=>{ %>
+          <li>
+            <%= house.houseName %>
+          </li>
+       <% }) %>
+     </ul>
+    <a id="home-page-a" href="/host/add-home">Add Home</a>
+</body>
+</html>

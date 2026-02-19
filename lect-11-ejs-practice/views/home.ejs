@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('partials/header') %>
+<body>
+  <%- include('partials/nav') %>
+    <h1 style="text-align: center;">Welcome to AIRBNB </h1>
+    <h3 style="text-align: center;">Registered homes are listed below</h3>
+     <ul style="display: flex; flex-wrap: wrap;">
+        <% houseRegistered.forEach(house=>{ %>
+          <li style="border: 1px solid black; padding: 10px; margin: 10px; background-color: gainsboro;width: fit-content; display: flex;align-items: center;justify-content: center;gap: 10px; border-radius: 20px;">
+            <%= house.houseName %> ,<%= house.price %> ,<%= house.location %>
+            <img src="<%=house.img%>" width="200" height="150"/>
+          </li>
+       <% }) %>
+     </ul>
+    <a id="home-page-a" href="/host/add-home" style="display: block; text-align: center;">Add Home</a>
+</body>
+</html>
