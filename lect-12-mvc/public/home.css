@@ -1,0 +1,22 @@
+h1{
+   background-color:chartreuse;
+    text-align: center;
+     padding: 20px;
+     margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#home-page-a{
+    text-align: center;
+    padding: 30px;
+    
+}
+#main-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}

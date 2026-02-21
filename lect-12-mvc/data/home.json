@@ -1,0 +1,22 @@
+[
+    {
+        "houseName": "Dishita's Kanav Villa",
+        "price": "12000",
+        "location": "Mohali",
+        "img": "https://images.pexels.com/photos/4318912/pexels-photo-4318912.jpeg"
+    },
+    {
+        "houseName": "Anu Home",
+        "price": "19999",
+        "location": "Mumbai",
+        "img": "https://images.pexels.com/photos/5667901/pexels-photo-5667901.jpeg",
+        "id": "0.5243532298393665"
+    },
+    {
+        "houseName": "New Villa",
+        "price": "12000",
+        "location": "RUPNAGAR",
+        "img": "https://images.pexels.com/photos/5667901/pexels-photo-5667901.jpeg",
+        "id": "0.9131526037346755"
+    }
+]
